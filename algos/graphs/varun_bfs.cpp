@@ -35,7 +35,7 @@ int main()
         {
          
             c=q.front();
-           printf("%d ",c);
+           // printf("%d ",c);
             q.pop();
             for(int i=0;i<adjlist[c].size();i++)
             {
