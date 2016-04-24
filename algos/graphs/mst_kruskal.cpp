@@ -84,3 +84,24 @@ int main(){
 
 	return 0;
 }
+
+
+//modified with path compression
+
+//Single number representing the total weight of the minimum spanning tree on this graph.
+// There will be only one possible MST.
+
+
+//https://www.hackerearth.com/notes/disjoint-set-union-union-find/
+
+
+// int root(int i)
+// {
+//     while(arr[i] != i)   
+//     {
+//     	arr[i] = arr[arr[i]];
+//         i = arr[i]
+//     }
+    
+//     return i;
+// }

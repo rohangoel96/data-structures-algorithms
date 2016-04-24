@@ -23,6 +23,20 @@ int root(int i)
     return i;
 }
 
+//PATH COMPRESSION
+
+// int root(int i)
+// {
+//     while(arr[i] != i)   
+//     {
+//     	arr[i] = arr[arr[i]];
+//         i = arr[i]
+//     }
+    
+//     return i;
+// }
+
+
 void union(int a, int b){
 	int rootA = root(a);
 	int rootB = root(b);
